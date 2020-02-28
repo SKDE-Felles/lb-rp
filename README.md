@@ -13,7 +13,7 @@ Our application of NGINX as proxy and load balancer is descibed below. Descripti
 Configuration of NGINX is defined in the _data/nginx/mongr.conf_-file. Please refere to the [NGINX documentation](https://nginx.org/en/docs/) and relevant settings of the hosting environment. All changes must be committed to this repository using git.
 
 ## Install
-All steps are performed from the command line at the server instance that will be running the nginx service. Make sure that the content of this repos is available at the server by using git:
+All steps are performed from the command line at the server instance that will be running the nginx service. Make sure that the content of this repo is available at the server by using git:
 ```
 git clone https://SKDE-Felles/lb-rp.git
 ```
@@ -28,7 +28,7 @@ If the server to be hosting nginx is just created (vanilla state) make sure _doc
 sudo ./install.sh
 ```
 
-Then, make sure that the values set at the top 15ish lines of _init-letsencrypt.sh_ are sensible and run the script:
+Then, make sure that the values set at the top 15-ish lines of _init-letsencrypt.sh_ are sensible and run the script:
 ```
 ./init-letsencrypt.sh
 ```
