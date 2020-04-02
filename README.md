@@ -1,4 +1,4 @@
-# Mongr load balancer and reverse proxy
+# Mongr load balancer and reverse proxy <img src="logo.svg" align="right" height="150" />
 
 Adjusted with our own flavour, but mostly by re-using existing and excellent [code](https://github.com/wmnnd/nginx-certbot) and [step-by-step guide](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71)
 
@@ -15,7 +15,7 @@ Configuration of NGINX is defined in the _data/nginx/mongr.conf_-file. Please re
 ## Install
 All steps are performed from the command line at the server instance that will be running the nginx service. Make sure that the content of this repo is available at the server by using git:
 ```
-git clone https://SKDE-Felles/lb-rp.git
+git clone https://github.com/mong/lb-rp.git
 ```
 the first time. For consecutive updates navigate into the lb-rp directory and issue:
 ```
