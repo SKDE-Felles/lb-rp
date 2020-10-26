@@ -6,7 +6,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
 fi
 
 # put your multi domain here, separated by space. Don't forget make nginx multi domain conf
-domains=(mongr.no skde-resultater.no)
+domains=(mongr.no skde-resultater.no sykehus.skde-resultater.no)
 
 rsa_key_size=4096
 data_path="./data/certbot"
