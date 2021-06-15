@@ -8,7 +8,7 @@ fi
 # put your multi domain here, separated by space. Don't forget make nginx multi domain conf
 domains=(mongr.no skde-resultater.no sykehus.skde-resultater.no)
 
-rsa_key_size=4096
+rsa_key_size=2048
 data_path="./data/certbot"
 
 email="biorakel@gmail.com" # Adding a valid address is strongly recommended, please add your own email !
